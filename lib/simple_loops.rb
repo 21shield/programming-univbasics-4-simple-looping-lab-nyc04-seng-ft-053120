@@ -25,4 +25,5 @@ def return_string_array(array)
     array[element].to_s
     element += 1
   end
+  array
 end
