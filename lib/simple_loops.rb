@@ -10,3 +10,11 @@ def loop_message_n_times(message, n)
     puts message
   end
 end
+
+def output_array(array)
+  items = 0
+  while items > array.length-1
+    puts array[items]
+    items +=1
+  end
+end
