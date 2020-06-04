@@ -13,7 +13,7 @@ end
 
 def output_array(array)
   items = 0
-  while items < array.length-1 do
+  while items <= array.length-1 do
     puts array[items]
     items +=1
   end
