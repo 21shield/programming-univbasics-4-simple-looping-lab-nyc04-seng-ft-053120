@@ -18,3 +18,11 @@ def output_array(array)
     items +=1
   end
 end
+
+def return_string_array(array)
+  element = 0
+  while element <= array.length-1 do
+    array[element].to_s
+    element += 1
+  end
+end
